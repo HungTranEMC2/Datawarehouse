@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/duckdb.sql" value="35c309ed-4f93-4311-b343-371481c50d1d" />
+    <file url="file://$PROJECT_DIR$/scripts/init_schemas.sql" value="f8284caf-59dd-47b1-a20d-a2bee9b9ca0a" />
+  </component>
+</project>
