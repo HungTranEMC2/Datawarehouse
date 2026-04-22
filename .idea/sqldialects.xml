@@ -2,8 +2,12 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/duck_config.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/eda.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/ddl_bronze.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/scripts/bronze/load_bronze.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/scripts/gold/load_gold.sql.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/scripts/init_schemas.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/ddl_silver.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/scripts/silver/load_silver.sql" dialect="GenericSQL" />
   </component>
 </project>

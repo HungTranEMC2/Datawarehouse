@@ -20,7 +20,7 @@ insert into bronze.bronze.crm_sales_details
 select * from read_csv('/Users/alexfile/PycharmProjects/Datawarehouse/datasets/source_crm/sales_details.csv',
                  header = true,
                   delim = ',',
-                  skip = 1););
+                  skip = 1);
 
     --insert CUST_AZ12.csv----
     insert into bronze.bronze.erp_cust_az12
