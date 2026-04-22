@@ -3,7 +3,7 @@ cst_id INT,
 cst_key VARCHAR(50),
 cst_firstname VARCHAR(50),
 cst_lastname VARCHAR(50),
-cst_material_status VARCHAR(50),
+cst_marital_status VARCHAR(50),
 cst_gndr VARCHAR(50),
 cst_create_date DATE
 );
@@ -22,9 +22,9 @@ create table bronze.bronze.crm_sales_details(
 sls_ord_num varchar(50),
 sls_prd_key varchar(50),
 sls_cust_id varchar(50),
-sls_order_dt varchar(50),
-sls_ship_dt varchar(50),
-sls_due_dt varchar(50),
+sls_order_dt int,
+sls_ship_dt int,
+sls_due_dt int,
 sls_sales int,
 sls_quantity int,
 sls_price int,
@@ -48,3 +48,4 @@ SUBCAT varchar(50),
 MAINTENANCE varchar(50),
 );
 
+drop table bronze.bronze.crm_sales_details;
